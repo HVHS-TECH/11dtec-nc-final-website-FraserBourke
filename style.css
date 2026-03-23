@@ -4,7 +4,7 @@ html, body {
 
   nav {
     background-color:#572cb5 ;
-    padding: 0.25cm;
+    padding: 0.5cm;
     -webkit-text-fill-color:#000000 ;
     font-family:  Lucida  ;
     font-size: 20px;
@@ -12,11 +12,23 @@ html, body {
     -webkit-text-stroke-color: #000000;
   }
 
-  .button {
+ 
+  main {
     background-color: #38aecc;
-    border: none;
-    color: #000000;
-    padding: 15px 10px;
-    text-align: center;
-    width: 2cm;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .box3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+  }
+
+  .row{
+    flex: 0.2cm;
   }
