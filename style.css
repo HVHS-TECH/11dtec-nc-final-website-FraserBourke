@@ -19,7 +19,7 @@ html, body {
 
   .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:auto auto auto ;
   }
 
   .box3{
@@ -29,6 +29,25 @@ html, body {
 
   }
 
-  .row{
-    flex: 0.2cm;
+  .image-row{
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+  }
+
+.box1{
+  padding:10px
+}
+
+
+  .box2{
+    padding: 10px
+  }
+
+  .box31{
+    padding: 10px
+  }
+
+  .box4{
+    padding: 10px
   }
