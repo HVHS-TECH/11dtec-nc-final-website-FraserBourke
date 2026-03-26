@@ -17,19 +17,27 @@ html, body {
     background-color: #38aecc;
   }
 
+  footer{
+    background-color: #211a1d;
+    -webkit-text-fill-color: aliceblue;
+  }
+
   .container {
     display: grid;
     grid-template-columns:auto auto auto ;
+    padding: 10px;
   }
 
   .box3{
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    padding: 10px;
 
   }
 
   .image-row{
+    background-color: #987284;
     padding: 5px;
     display: flex;
     margin: 5px;
@@ -49,5 +57,9 @@ html, body {
   }
 
   .box4{
+    padding: 10px
+  }
+
+  .box5{
     padding: 10px
   }
