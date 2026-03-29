@@ -17,6 +17,8 @@ html, body {
     background-color: #38aecc;
   }
 
+  
+
   footer{
     background-color: #211a1d;
     -webkit-text-fill-color: aliceblue;
@@ -63,3 +65,7 @@ html, body {
   .box5{
     padding: 10px
   }
+
+.team2 {
+  padding: 3cm;
+}
