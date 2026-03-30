@@ -12,6 +12,8 @@ html, body {
     -webkit-text-stroke-color: #000000;
   }
 
+
+
  
   main {
     background-color: #38aecc;
@@ -45,6 +47,14 @@ html, body {
     margin: 5px;
   }
 
+  .image-row2{
+  
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+  }
+
+
 .box1{
   padding:10px
 }
@@ -66,6 +76,10 @@ html, body {
     padding: 10px
   }
 
-.team2 {
-  padding: 3cm;
+.box6 {
+  padding: 0.2cm;
+}
+
+.box7 {
+  padding: 0.2cm;
 }
